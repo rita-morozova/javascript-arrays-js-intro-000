@@ -6,7 +6,7 @@ function addElementToBeginningOgArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  array.unsift(element);
+  array.unsift(element)
   return array
 }
 
