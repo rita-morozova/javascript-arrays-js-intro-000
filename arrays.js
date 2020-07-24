@@ -9,3 +9,7 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   newArray= array.unsift(element);
   return newArray;
 }
+
+function addElementToEndOfArray(array,element){
+  return newArray=[array, ...element]
+}
