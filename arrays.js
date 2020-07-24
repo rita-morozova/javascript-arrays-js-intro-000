@@ -1,8 +1,8 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 function addElementToBeginningOgArray(array, element){
-  newArray = [element, ...array];
-  return newArray;
+  newArray = [element, ...array]
+  return newArray
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
@@ -32,5 +32,4 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 function removeElementFromBeginningOfArray(array){
   newArray = array.slice(1)
   return newArray
-  
 }
